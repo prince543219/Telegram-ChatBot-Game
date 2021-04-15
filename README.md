@@ -2,7 +2,7 @@
 A rock-paper-scissors game based on Telegram's ChaBot.
 
 - Content: 
-  There are five games in one round. User and Bot will get five cards in each game.
+  There are five games in one round. User and Bot will receive five cards in each game.
   Then users and Bot need to play five games with their five cards.
 - Mehthod: Use Telegram's API to implement this project.
 
