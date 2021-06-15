@@ -1,5 +1,5 @@
 # Telegram-ChatBot-Game
-A rock-paper-scissors game based on Telegram's ChaBot.
+A rock-paper-scissors game based on Telegram's ChatBot.
 
 - Content: 
   There are five games in one round. User and Bot will receive five cards in each game.
