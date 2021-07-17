@@ -175,7 +175,7 @@ def play(bot, update):
         print(e) 
             
             
-updater = Updater('') #key in your token here.
+updater = Updater('') # key in your token here.
 updater.dispatcher.add_handler(CommandHandler('start', start))
 updater.dispatcher.add_handler(CommandHandler('play', play))
 updater.dispatcher.add_handler(CommandHandler('justice', justice))
