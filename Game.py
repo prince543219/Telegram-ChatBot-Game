@@ -25,13 +25,20 @@ your = []
 dic = '{} {} {} {} {}'
 count = 0
 
+# Define the board variable
+board = []
+
 def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    global count, mine, your, mine_cards, your_cards
+    global count, mine, your, mine_cards, your_cards, board
     count = 0
     mine = []
     your = []
     mine_cards = ['none', 'none', 'none', 'none', 'none']
     your_cards = ['none', 'none', 'none', 'none', 'none']
+    
+    # Initialize the board
+    board = [[' ' for _ in range(3)] for _ in range(3)]
+    
     update.message.reply_text('Welcome to Rock Paper Scissors!\nPlayer X goes first.\n' + render_board(), reply_markup=build_keyboard())
 
 def render_board() -> str:
